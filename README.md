@@ -1,4 +1,5 @@
-🤖 Telegram Intelligent Agent Chatbot
+# **🤖 Telegram Intelligent Agent Chatbot**:
+
 A hybrid architecture-based chatbot for Telegram, designed to provide both quick, rule-based responses and advanced query handling using Natural Language Processing (NLP). This project aims to deliver a seamless user experience through automated replies, scheduled messages, and personalized interactions.
 
 🚀 Features
