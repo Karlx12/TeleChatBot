@@ -14,29 +14,28 @@ Follow these steps to set up the chatbot locally:
 
 1. Clone the Repository:
 
+```bash
+git clone https://github.com/Karlx12/TeleChatBot.git
+cd TeleChatBot
 ```
-git clone https://github.com/yourusername/telegram-intelligent-agent-chatbot.git
-cd telegram-intelligent-agent-chatbot
 Set Up a Virtual Environment:
-```
 
-```
+```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 Install Dependencies:
-```
-
-```
+```bash
 pip install -r requirements.txt
+```
 Configure Your Bot: Create a .env file with your Telegram bot token:
-```
-```
+```makefile
 TELEGRAM_TOKEN=your_bot_token_here
 MONGO_URI=your_mongodb_connection_string
 ```
 Run the Bot:
 
-```
+```bash
 python main.py
 ```
 # 💡 Usage
@@ -50,19 +49,19 @@ We welcome contributions! To contribute:
 
 Fork the repository.
 1. Create a new branch:
-```
+```bash
 git checkout -b feature/your-feature-name
 ```
 Make your changes and commit:
-```
+```bash
 git commit -m "Add your message here"
 ```
 Push to the branch:
-```
+```bash
 git push origin feature/your-feature-name
 ```
 Open a pull request.
 
-📄 License
+# 📄 License:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
